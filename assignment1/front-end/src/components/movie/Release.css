@@ -1,0 +1,19 @@
+
+  .release-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .release-column {
+    flex: 1;
+    border: 1px solid #deb992;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  

@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: #051622;
+
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.body {
+  min-height: 100vh;
+  color: #1ba098;
+}
+
+.footer {
+  bottom: 0;
+}

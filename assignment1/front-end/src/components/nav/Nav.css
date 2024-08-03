@@ -1,0 +1,146 @@
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020b12;
+  padding: 10px 20px;
+  color: #1ba098;
+}
+
+.logo {
+  font-size: 24px;
+  color: #deb992;
+}
+
+.dropdown-menu {
+  position: relative;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #deb992;
+  margin: 2px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.open {
+
+  opacity: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #051622;
+  min-width: 160px;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  /* Position the dropdown on the right */
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+/* Adjust the dropdown content position for different screen sizes */
+@media screen and (max-width: 768px) {
+  .dropdown-content {
+    right: auto;
+    left: 0;
+    /* Position the dropdown on the left for smaller screens */
+  }
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #deb992;
+  transition: background-color 0.3s;
+  background-color: #051622;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}
+
+.search-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .search-bar {
+  display: flex;
+  align-items: center;
+} */
+
+.search-bar input {
+  padding: 5px;
+  width: 200px;
+  border: 1px solid #deb992;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  background-color: #deb992;
+  color: #051622;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #1ba098;
+  color: #fff;
+}
+.search-bar {
+  position: relative; /* Add this to make it a relative container */
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 100%; /* Position it below the search input */
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+
+.search-dropdown ul {
+  padding: 0;
+  margin: 0;
+}
+
+.search-dropdown li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-dropdown li:hover {
+  background-color: #f2f2f2;
+}

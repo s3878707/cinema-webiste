@@ -1,0 +1,23 @@
+.button{
+    height: 50px;
+}
+.button>button{
+    height: 100%;
+    width: 100%;
+    border: 0;
+
+    border-radius: 3px;
+    background-color: #deb992;
+    color: #051622;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.button>button:hover {
+    background-color: #3498db;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+

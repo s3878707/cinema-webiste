@@ -1,0 +1,18 @@
+.star-rating button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+
+}
+
+.on {
+    color: gold;
+}
+
+.off {
+    color: #ccc;
+}

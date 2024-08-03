@@ -1,0 +1,75 @@
+/* src/App.css */
+.movie-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Gap between cards */
+  }
+  
+  @media (min-width: 768px) {
+    .movie-layout {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #deb992;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Take full width initially */
+    min-width: 200px; /* Set minimum width for card */
+    max-width: 300px; /* Set maximum width for card */
+    min-height: 200px; /* Set minimum height for card */
+    max-height: 350px; /* Set maximum height for card */
+  }
+  
+  .movie-card.big {
+    border: 2px solid #ff9900;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(255, 153, 0, 0.4);
+    max-width: 100%; /* Take full width for big card */
+    min-height: 500px; /* Set minimum height for big card */
+    max-height: 700px; /* Set maximum height for big card */
+  }
+  
+  .movie-card .img-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .movie-card h2,
+  .movie-card p {
+    margin: 5px 0;
+    text-align: center;
+  }
+  .movie-form-member {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .trending {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .hottest {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .order {
+    font-size: 25px;
+  }

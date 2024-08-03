@@ -1,0 +1,88 @@
+.editpost-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+
+}
+
+.editpost-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editpost-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.editpost-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.editpost-rating button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 5px;
+  outline: none;
+}
+
+.editpost-rating p {
+  margin: 0 10px;
+}
+
+
+
+
+.editpost-content {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  margin-top: 20px;
+  width: 100%;
+}
+
+.editpost-content textarea {
+  width: 100%;
+  height: 300px;
+  /* Adjust as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+
+
+
+
+
+.form-group span {
+  color: red;
+}
+
+
+
+.on {
+  color: gold;
+}
+
+.off {
+  color: #ccc;
+}

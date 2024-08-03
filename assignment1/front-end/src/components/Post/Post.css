@@ -1,0 +1,28 @@
+.post-title {
+    margin-left: 10px;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: left;
+    max-width: 550px;
+
+    align-items: center;
+    object-fit: cover;
+}
+
+.post-rating {
+    border-bottom: 1px solid black;
+}
+
+.post-content {
+    /* Adjust the max height as needed */
+    overflow-wrap: break-word;
+}
+
+.post-wrapper {
+    max-width: 100%;
+}
